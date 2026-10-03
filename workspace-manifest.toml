@@ -1,0 +1,8 @@
+# Песочница приёмки conductor, срез 1 (devtools docs/conductor/acceptance/sandbox.md).
+[cores.conductor-sandbox]
+repo_url = "https://github.com/andrei-shtanakov/conductor-sandbox.git"
+git_dir = "conductor-sandbox"
+
+[cores.conductor-sandbox-outside]
+repo_url = "https://github.com/andrei-shtanakov/conductor-sandbox-outside.git"
+git_dir = "conductor-sandbox-outside"

@@ -1,0 +1,34 @@
+# Эпики песочницы приёмки conductor (схема epics/v1, как epics.toml зонтика).
+schema_version = "1.0.0"
+adopted_at     = "2026-10-03"
+
+[coverage_policy]
+robin_cutover_todo   = 0.98
+robin_cutover_issues = 0.90
+robin_cutover_prs    = 0.90
+missing_error_after  = "2026-11-01"
+min_sample           = 10
+
+[exclusions]
+merge_commits = true
+bot_authors   = []
+paths         = []
+
+[programs.acc]
+title = "Приёмка conductor"
+kind  = "ecosystem"
+
+[epics."acc.focus"]
+title  = "Фокус приёмки"
+status = "active"
+goal   = "Сценарии A1–A13 среза 1"
+opened = "2026-10-03"
+
+[epics."acc.bg"]
+title  = "Фон приёмки"
+status = "active"
+goal   = "Продюсеры и предпосылки сценариев"
+opened = "2026-10-03"
+
+[defect_classes.code]
+title = "Код"
