@@ -1,0 +1,10 @@
+# Нарочно красная проверка — фикстура сценария A6 приёмки conductor (pr_nudge).
+name: red
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  always-red:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 1
