@@ -3,7 +3,7 @@
 schema_version = 1
 updated      = "2026-10-03"
 autonomy = 1
-enabled_actions = ["owner_queue", "close_shipped"]
+enabled_actions = ["notify_satisfied"]
 writer_host  = "vmi3423913"
 writer_since = "2026-10-03T06:13:01Z"
 
