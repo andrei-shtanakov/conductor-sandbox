@@ -2,8 +2,8 @@
 # установки ключа App (ключ установлен на VPS — время коммита).
 schema_version = 1
 updated      = "2026-10-03"
-autonomy = 0
-enabled_actions = []
+autonomy = 1
+enabled_actions = ["nudge"]
 writer_host  = "vmi3423913"
 writer_since = "2026-10-03T06:13:01Z"
 
